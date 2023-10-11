@@ -10,8 +10,8 @@
 
 mod delicious_snacks {
     // TODO: Fix these use statements
-    use self::fruits::PEAR as fruit;
-    use self::veggies::CUCUMBER as veggie;
+    use self::fruits::PEAR as pear;
+    use self::veggies::CUCUMBER as cucumber;
 
     mod fruits {
         pub const PEAR: &'static str = "Pear";
